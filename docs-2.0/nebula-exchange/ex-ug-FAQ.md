@@ -139,7 +139,7 @@ Spark 日志提示 `Hive Schema version 1.2.0 does not match metastore's schema 
     </property>
     ```
 
-重启 Hive 即可。
+3. 重启 Hive 即可。
 
 ## 配置问题
 
