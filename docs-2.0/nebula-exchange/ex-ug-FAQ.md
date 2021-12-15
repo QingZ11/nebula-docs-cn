@@ -118,9 +118,7 @@ nebula-exchange-2.0.0.jar \
 
 ### Q：Hive 数据导入时提示 schema 版本不一致
 
-Spark 日志提示下面这类信息 `Hive Schema version 1.2.0 does not match metastore's schema version 2.1.0 Metastore is not upgraded or corrupt` 
-
-这是因为 Hive 环境中配置的 metastore schema 版本和 Spark 使用的 metastore 版本不一致。
+Spark 日志提示 `Hive Schema version 1.2.0 does not match metastore's schema version 2.1.0 Metastore is not upgraded or corrupt` 的原因是 Hive 环境中配置的 metastore schema 版本和 Spark 使用的 metastore 版本不一致。
 
 解决方法：
 
