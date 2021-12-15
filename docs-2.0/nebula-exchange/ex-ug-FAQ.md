@@ -130,7 +130,7 @@ Spark 日志提示 `Hive Schema version 1.2.0 does not match metastore's schema 
 update hive.VERSION set SCHEMA_VERSION="2.1.0" where VER_ID=1
 ```
 
-2. 在 Hive 环境的 hive-site.xml 中增加如下配置：
+2. 在 Hive 环境的 `hive-site.xml` 文件中增加如下配置：
 
 ```
 <property>
