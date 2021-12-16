@@ -124,7 +124,7 @@ Spark 日志提示 `Hive Schema version 1.2.0 does not match metastore's schema 
 
 1. 将 Hive 环境中存储 Hive metastore 信息的 MySQL version 信息更新为 Spark 中使用的 metastore 版本。
 
-    假设 Hive 在 MySQL 中存储 metastore 的数据库是`hive`，则需要按如下方式修改 `hive.VERSION` 表中的 `version` 字段：
+    假设 Hive 在 MySQL 中存储 metastore 的数据库是`hive`，需要按如下方式修改 `hive.VERSION` 表中的 `version` 字段：
 
     ```
     update hive.VERSION set SCHEMA_VERSION="2.1.0" where VER_ID=1
@@ -139,7 +139,7 @@ Spark 日志提示 `Hive Schema version 1.2.0 does not match metastore's schema 
     </property>
     ```
 
-3. 重启 Hive 即可。
+3. 重启 Hive。
 
 ## 配置问题
 
