@@ -9,7 +9,7 @@
 - 优化路径以减少冗余路径和时间复杂度。[#4126](https://github.com/vesoft-inc/nebula/pull/4162) 
 - 优化获取属性的方式进而优化`MATCH`语句的性能。[#3750](https://github.com/vesoft-inc/nebula/pull/3750) 
 - 优化`GO`、`YIELD`子句，减少不必要的属性读取。[#3974](https://github.com/vesoft-inc/nebula/pull/3974) 
-- 支持获取属性时 Filter 及 Limit 下推。 [#3844](https://github.com/vesoft-inc/nebula/pull/3844) [#3839](https://github.com/vesoft-inc/nebula/pull/3839) 
+- 支持获取属性时 Filter 及`LIMIT`下推。 [#3844](https://github.com/vesoft-inc/nebula/pull/3844) [#3839](https://github.com/vesoft-inc/nebula/pull/3839) 
 - 支持`LOOKUP`聚合下推。[#3504](https://github.com/vesoft-inc/nebula/pull/3504) 
 - `maxHop`在匹配可变长度路径中是可选的。[#3881](https://github.com/vesoft-inc/nebula/pull/3881) 
 - 使用`DROP SPACE`之后图空间将进行物理删除。[#3913](https://github.com/vesoft-inc/nebula/pull/3913) 
